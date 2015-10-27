@@ -8,14 +8,7 @@
  
  
  #include "header.h"
- #include "ioLib.h"
- 
- struct YPR
- {
-   double pitch;
-   double roll;
-   double yaw;
- }ypr;   // <-----move this definiton to header.h
+
  
    void setup()
    {
