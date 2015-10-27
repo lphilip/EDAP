@@ -37,7 +37,7 @@
         data = strtok(NULL, ',');
       }
       ypr.pitch = array[0]; ypr.roll = array[1]; ypr.yaw = array[2];
-      msgQsend(msgId, ypr,sizeof(ypr),1000, MSG_PRI_URGENT);
+      msgQsend(QueueID, ypr,sizeof(ypr),1000, MSG_PRI_URGENT);
       
     }
     task1()
